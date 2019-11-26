@@ -7,6 +7,7 @@ return new Config(
         'database' => [
             'adapter' => getenv('IDEA_DB_ADAPTER'),
             'host' => getenv('IDEA_DB_HOST'),
+            'port' => getenv('IDEA_DB_PORT'),
             'username' => getenv('IDEA_DB_USERNAME'),
             'password' => getenv('IDEA_DB_PASSWORD'),
             'dbname' => getenv('IDEA_DB_NAME'),

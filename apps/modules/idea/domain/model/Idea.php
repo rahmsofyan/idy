@@ -2,6 +2,8 @@
 
 namespace Idy\Idea\Domain\Model;
 
+use Idy\Idea\Domain\Model\Author;
+
 class Idea
 {
     private $id;
